@@ -15,6 +15,6 @@ public class AddDigits {
     public int addDigits2(int num) {
         if (num < 10)
             return num;
-        return addDigits(num % 10 + num / 10);
+        return addDigits2(num % 10 + num / 10);
     }
 }

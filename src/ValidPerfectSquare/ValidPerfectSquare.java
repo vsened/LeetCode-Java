@@ -1,5 +1,14 @@
 package ValidPerfectSquare;
-
+/**
+ * Valid Perfect Square
+ * <p>
+ *Given a positive integer num, return true if num is a perfect square or false otherwise.
+ *<p>
+ * A perfect square is an integer that is the square of an integer. In other words, it is
+ * the product of some integer with itself.
+ *<p>
+ * You must not use any built-in library function, such as sqrt.
+ */
 public class ValidPerfectSquare {
     public boolean isPerfectSquare(int num) {
         if (num == 1)
