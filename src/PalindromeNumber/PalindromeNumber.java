@@ -1,6 +1,14 @@
 package PalindromeNumber;
 
+/**
+ * 9. Palindrome Number
+ * Given an integer x, return true if x is palindrome integer.
+ */
+
 public class PalindromeNumber {
+    /**
+     * Using string
+     */
     public boolean isPalindrome(int x) {
         String number = String.valueOf(x);
         var left = 0;
@@ -14,6 +22,10 @@ public class PalindromeNumber {
         }
         return true;
     }
+
+    /**
+     * Math manipulation
+     */
     public boolean isPalindrome2(int x) {
         var number = x;
         var reverseNumber = 0;
