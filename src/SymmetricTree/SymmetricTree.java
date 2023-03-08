@@ -4,7 +4,11 @@ import TreeNode.TreeNode;
 
 import java.util.ArrayDeque;
 
-
+/**
+ * Symmetric Tree.
+ * <p>
+ * Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+ */
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         if (root.left == null || root.right == null)
@@ -24,8 +28,7 @@ public class SymmetricTree {
                 }
                 else
                     return false;
-            }
-            else if (left.left != null && right.right == null
+            } else if (left.left != null && right.right == null
                     || left.left == null && right.right != null)
                 return false;
             if (left.right != null && right.left != null){
@@ -35,8 +38,7 @@ public class SymmetricTree {
                 }
                 else
                     return false;
-            }
-            else if (left.right == null && right.left != null
+            } else if (left.right == null && right.left != null
                     || left.right != null && right.left == null)
                 return false;
         }

@@ -4,7 +4,11 @@ import TreeNode.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Binary Tree Postorder Traversal
+ * <p>
+ * Given the root of a binary tree, return the postorder traversal of its nodes' values.
+ */
 public class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         var result = new ArrayList<Integer>();
