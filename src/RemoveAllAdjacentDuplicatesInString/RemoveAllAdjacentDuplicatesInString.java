@@ -1,7 +1,18 @@
 package RemoveAllAdjacentDuplicatesInString;
 
 import java.util.Stack;
-
+/** <b>Remove All Adjacent Duplicates In String</b>
+ * <p>
+ * You are given a string s consisting of lowercase English letters.
+ * A duplicate removal consists of choosing two adjacent and equal
+ * letters and removing them.
+ * <p>
+ * We repeatedly make duplicate removals on s until we no longer can.
+ * <p>
+ * Return the final string after all such duplicate removals have been
+ * made. It can be proven that the answer is unique.
+ *
+ */
 public class RemoveAllAdjacentDuplicatesInString {
     public static String removeDuplicates(String s) {
         var stack = new Stack<Character>();
